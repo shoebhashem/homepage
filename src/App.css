@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+/* Add this CSS to your existing app.css file */
+
+.homepage {
+  color: #555; /* Changed text color for better readability */
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content-section {
+  margin-top: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.section-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.section-text {
+  width: 70%;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section-text h2 {
+  font-size: 28px; /* Increased heading font size */
+  margin-bottom: 20px;
+  color: #686666; /* Changed heading color for better contrast */
+}
+
+.section-text p {
+  font-size: 22px; /* Increased paragraph font size */
+  line-height: 1.6;
+  color: #777; /* Changed paragraph color for better contrast */
+}
+
+.section-image img {
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
 }
