@@ -10,7 +10,7 @@ function HomePage() {
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#projects">Projects</a></li>
           </ul>
         </nav>
       </header>
@@ -42,11 +42,15 @@ function HomePage() {
                 I offer a wide range of software engineering services tailored to meet your needs.
                 Whether you need assistance with software development, DevOps practices, or system integration, I've got you covered.
                 I specialize in creating robust, scalable solutions using cutting-edge technologies such as 
-                Docker, Kubernetes, Terrafrom, AWS cloud services, Git, Gerrit, Seleimum, DVC, MLflow etc.
-                Java, Javascript, Python, C, C++ 
-                node.js react.js flask, streamlit etc.
-                Cyber security, ZAP
-                System safety, Asil, ISO 26262 
+                Docker, Kubernetes, Terraform, AWS cloud services, Git, Gerrit, Selenium, DVC, MLflow, etc.
+                <br />
+                Java, JavaScript, Python, C, C++
+                <br />
+                Node.js, React.js, Flask, Streamlit, etc.
+                <br />
+                Cybersecurity, ZAP
+                <br />
+                System safety, ASIL, ISO 26262
               </p>
             </div>
           </div>
