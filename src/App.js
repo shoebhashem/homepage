@@ -22,8 +22,9 @@ function HomePage() {
               <h2>Welcome to My Homepage</h2>
               <p>
                 Welcome! My name is Shoeb Hashem. I'm excited to share my expertise and services with you.
-                With over 15 years of experience in product development, I specialize in mechanical, electrical, and software engineering.
-                I have a proven track record of delivering high-quality solutions to clients across various industries.
+                With extensive experience in product development across multiple large organizations, I am driven, 
+                analytical, result-oriented, and passionate about solving problems. I specialize in software 
+                engineering and have experience in electrical engineering.
                 Let's work together to bring your ideas to life.
               </p>
             </div>
@@ -40,7 +41,12 @@ function HomePage() {
               <p>
                 I offer a wide range of software engineering services tailored to meet your needs.
                 Whether you need assistance with software development, DevOps practices, or system integration, I've got you covered.
-                I specialize in creating robust, scalable solutions using cutting-edge technologies such as Docker, Kubernetes, and more.
+                I specialize in creating robust, scalable solutions using cutting-edge technologies such as 
+                Docker, Kubernetes, Terrafrom, AWS cloud services, Git, Gerrit, Seleimum, DVC, MLflow etc.
+                Java, Javascript, Python, C, C++ 
+                node.js react.js flask, streamlit etc.
+                Cyber security, ZAP
+                System safety, Asil, ISO 26262 
               </p>
             </div>
           </div>
