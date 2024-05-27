@@ -10,6 +10,7 @@ function HomePage() {
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="#Projects">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -58,6 +59,23 @@ function HomePage() {
                 Email: shoeb.hashem@gmail.com <br />
                 Phone: +46737136618 <br />
                 Address: Gothenburg, Sweden
+              </p>
+            </div>
+          </div>
+        </section>
+        {/* Project Section */}
+        <section id="project" className="content-section">
+          <div className="section-container">
+            <div className="section-text">
+              <h2>Projects</h2>
+              <p>
+                Machine learning (ML) project, 
+                CI/CD implemented using GitHub action and AWS ECR and EC2. http://51.20.109.46:8501/
+              </p>
+              <p>
+                Simple Microservice application, ready to be deployed with Kubernetes.
+                https://github.com/shoebhashem/myAPP
+
               </p>
             </div>
           </div>
