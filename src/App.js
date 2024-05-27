@@ -70,7 +70,7 @@ function HomePage() {
           </div>
         </section>
         {/* Project Section */}
-        <section id="project" className="content-section">
+        <section id="projects" className="content-section">
           <div className="section-container">
             <div className="section-text">
               <h2>Projects</h2>
