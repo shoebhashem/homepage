@@ -5,93 +5,40 @@ function HomePage() {
   return (
     <div className="homepage">
       <header>
-        <nav>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#projects">Projects</a></li>
-          </ul>
-        </nav>
+        <h1>Shoeb Hashem</h1>
+        <h2>MSc in Software Engineering | Software Developer (Automotive Industry)</h2>
       </header>
+
       <main>
-        {/* About Section */}
-        <section id="about" className="content-section">
-          <div className="section-container">
-            <div className="section-text">
-              <h2>Welcome to My Homepage</h2>
-              <p>
-                Welcome! My name is Shoeb Hashem. I'm excited to share my expertise and services with you.
-                With extensive experience in product development across multiple large organizations, I am driven, 
-                analytical, result-oriented, and passionate about solving problems. I specialize in software 
-                engineering and have experience in electrical engineering.
-                Let's work together to bring your ideas to life.
-              </p>
-            </div>
-            <div className="section-image">
-              <img src="/image1.jpg" alt="Profile" />
-            </div>
-          </div>
+        <section className="contact">
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:shoeb.hashem@gmail.com">shoeb.hashem@gmail.com</a></p>
+          <p>Phone: <a href="tel:+46737136618">+46 73 713 6618</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/shoebhashem" target="_blank" rel="noopener noreferrer">linkedin.com/in/shoebhashem</a></p>
+          <p>Location: Gothenburg, Sweden</p>
         </section>
-        {/* Services Section */}
-        <section id="services" className="content-section">
-          <div className="section-container">
-            <div className="section-text">
-              <h2>Services</h2>
-              <p>
-                I offer a wide range of software engineering services tailored to meet your needs.
-                Whether you need assistance with software development, DevOps practices, or system integration, I've got you covered.
-                I specialize in creating robust, scalable solutions using cutting-edge technologies such as 
-                Docker, Kubernetes, Terraform, AWS cloud services, Git, Gerrit, Selenium, DVC, MLflow, etc.
-                <br />
-                Java, JavaScript, Python, C, C++
-                <br />
-                Node.js, React.js, Flask, Streamlit, etc.
-                <br />
-                Cybersecurity, ZAP
-                <br />
-                System safety, ASIL, ISO 26262
-              </p>
-            </div>
-          </div>
-        </section>
-        {/* Contact Section */}
-        <section id="contact" className="content-section">
-          <div className="section-container">
-            <div className="section-text">
-              <h2>Contact Me</h2>
-              <p>
-                Ready to start your next project? Let's connect!
-                Feel free to reach out to me via email, phone, or in person to discuss your ideas and requirements.
-                I'm committed to providing exceptional service and helping you achieve your goals.
-              </p>
-              <p>
-                Email: shoeb.hashem@gmail.com <br />
-                Phone: +46737136618 <br />
-                Address: Gothenburg, Sweden
-              </p>
-            </div>
-          </div>
-        </section>
-        {/* Project Section */}
-        <section id="projects" className="content-section">
-          <div className="section-container">
-            <div className="section-text">
-              <h2>Projects</h2>
-              <p>
-                Machine learning (ML) project, 
-                CI/CD implemented using GitHub action and AWS ECR and EC2. http://51.20.109.46:8501/
-              </p>
-              <p>
-                Simple Microservice application, ready to be deployed with Kubernetes.
-                https://github.com/shoebhashem/myAPP
-              </p>
-            </div>
-          </div>
+
+        <section className="projects">
+          <h3>Projects</h3>
+          <ul>
+            <li>
+              Machine Learning project with CI/CD using GitHub Actions and AWS  
+              <a href="http://51.20.109.46:8501/" target="_blank" rel="noopener noreferrer"> View Project</a>
+            </li>
+            <li>
+              Microservice application (Kubernetes ready)  
+              <a href="https://github.com/shoebhashem/myAPP" target="_blank" rel="noopener noreferrer"> GitHub Repo</a>
+            </li>
+          </ul>
         </section>
       </main>
+
+      <footer>
+        <p>© {new Date().getFullYear()} Shoeb Hashem</p>
+      </footer>
     </div>
   );
 }
 
 export default HomePage;
+
