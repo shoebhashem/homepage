@@ -1,27 +1,69 @@
 /* src/ImageCarousel.css */
 
+
 .image-carousel {
-    position: relative;
-    width: 100%;
-    height: 0.1; /* Set height to 0 to create space for padding */
-    padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
-    overflow: hidden;
-  }
-  
-  .image-carousel img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensure the entire container is covered */
-  }
-  
-  .image-carousel p {
-    position: absolute;
-    bottom: 20px; /* Adjust the bottom position as needed */
-    left: 20px; /* Adjust the left position as needed */
-    color: white; /* Set text color */
-    font-size: 24px; /* Set font size */
-  }
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(60, 80, 120, 0.10);
+  background: #e5e8ef;
+}
+
+.image-carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.image-carousel .carousel-caption {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  right: 24px;
+  background: rgba(30, 40, 60, 0.65);
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(30, 40, 60, 0.10);
+  max-width: 80%;
+}
+
+.image-carousel .carousel-controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  transform: translateY(-50%);
+}
+
+.image-carousel .carousel-btn {
+  background: rgba(255,255,255,0.85);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #2563eb;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(60, 80, 120, 0.10);
+  transition: background 0.2s;
+}
+.image-carousel .carousel-btn:hover {
+  background: #2563eb;
+  color: #fff;
+}
   
