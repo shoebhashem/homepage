@@ -1,5 +1,6 @@
 /* Global Styles */
 
+
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
@@ -8,26 +9,112 @@ body {
   line-height: 1.7;
 }
 
+.main-header {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(60, 80, 120, 0.08);
+  padding: 32px 0 16px 0;
+  margin-bottom: 32px;
+}
+.header-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+.header-content h1 {
+  font-size: 2.6rem;
+  font-weight: 800;
+  margin: 0 0 8px 0;
+  color: #2563eb;
+  letter-spacing: 1px;
+}
+.header-content h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #4a5870;
+  margin: 0;
+}
+
 /* Homepage Container */
 
+
 .homepage {
-  padding: 48px 24px;
   max-width: 900px;
-  margin: 32px auto 0 auto;
+  margin: 0 auto;
   background: #fff;
   border-radius: 18px;
   box-shadow: 0 6px 32px rgba(60, 80, 120, 0.10);
+  padding: 32px 24px 40px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 /* Sections */
 
-.content-section {
-  margin: 56px 0;
-  padding: 32px 0;
+
+.section {
+  margin-bottom: 0;
+  padding: 0 0 24px 0;
   border-bottom: 1px solid #e5e8ef;
 }
+.section:last-child {
+  border-bottom: none;
+}
 
+.contact-section h3,
+.projects-section h3 {
+  font-size: 1.5rem;
+  color: #1a2a3a;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
 
+.contact-info p {
+  font-size: 1.08rem;
+  margin: 8px 0;
+  color: #3a4a5a;
+}
+.contact-info a {
+  font-weight: 600;
+  color: #2563eb;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.contact-info a:hover {
+  color: #1e40af;
+  text-decoration: underline;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.project-list li {
+  background: #f4f6fb;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(60, 80, 120, 0.06);
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+}
+.project-link {
+  margin-top: 4px;
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.project-link:hover {
+  color: #1e40af;
+  text-decoration: underline;
+}
 .section-container {
   display: flex;
   flex-direction: column;
@@ -93,11 +180,15 @@ a:hover {
 
 /* Footer */
 
-footer {
-  margin-top: 56px;
-  padding-top: 24px;
+
+.main-footer {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 -2px 8px rgba(60, 80, 120, 0.04);
+  padding: 24px 0 16px 0;
+  margin-top: 40px;
+  text-align: center;
   font-size: 0.98rem;
   color: #7a8ca0;
-  text-align: center;
   border-top: 1px solid #e5e8ef;
 }
