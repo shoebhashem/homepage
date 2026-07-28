@@ -23,6 +23,9 @@
       "react-app/jest"
     ]
   },
+  "overrides": {
+    "shell-quote": "^1.10.0"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
