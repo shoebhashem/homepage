@@ -74,24 +74,30 @@ function HomePage() {
 
             <div className="project-card">
               <div className="project-header">
-                <h3>ML Pipeline with CI/CD</h3>
-                <a href="http://51.20.109.46:8501/" target="_blank" rel="noopener noreferrer" className="btn">
-                  View live →
+                <h3>Car Price Predictor</h3>
+                <a href="https://mlproject-car-price-predictor.streamlit.app/" target="_blank" rel="noopener noreferrer" className="btn">
+                  View app →
                 </a>
               </div>
               <p>
-                End-to-end machine learning project with automated deployment using GitHub Actions and AWS.
-                Includes continuous integration, testing, and a live Streamlit interface.
+                An end-to-end ML project covering the full lifecycle — data ingestion, preprocessing,
+                model training with a Random Forest, experiment tracking via MLflow, and deployment
+                using Docker, AWS (ECR + EC2), and Streamlit. Users input car details and receive
+                a predicted price range.
               </p>
               <div className="project-tags">
                 <span>Python</span>
+                <span>Random Forest</span>
+                <span>MLflow</span>
+                <span>DVC</span>
+                <span>Docker</span>
                 <span>AWS</span>
-                <span>GitHub Actions</span>
-                <span>CI/CD</span>
+                <span>Streamlit</span>
               </div>
             </div>
 
-            <div className="project-card">
+
+<div className="project-card">
               <div className="project-header">
                 <h3>Kubernetes Microservices App</h3>
                 <a href="https://github.com/shoebhashem/myAPP" target="_blank" rel="noopener noreferrer" className="btn">
