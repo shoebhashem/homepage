@@ -135,6 +135,41 @@ function HomePage() {
           </div>
         </section>
 
+        <section className="card" id="research">
+          <h2 className="section-label">Research</h2>
+          <div className="thesis-card">
+            <div className="thesis-meta">
+              <span className="thesis-badge">MSc Thesis</span>
+              <span className="thesis-year">May 2025</span>
+            </div>
+            <h3 className="thesis-title">
+              Exploring Confidence Challenges in Integrating Third-Party Binaries in a CI/CD Pipeline with Limited Transparency: A Case Study
+            </h3>
+            <p className="thesis-university">Blekinge Institute of Technology — Faculty of Computing, Sweden</p>
+            <p className="thesis-abstract">
+              Investigates how confidence in a software system is affected when integrating
+              closed-source third-party binaries into a CI/CD pipeline. Through a case study
+              combining document reviews, observation, and semi-structured interviews, the research
+              identifies eight key recommendations across testing, responsibility, and monitoring
+              — with a focus on the automotive software domain.
+            </p>
+            <div className="thesis-keywords">
+              <span>CI/CD</span>
+              <span>Third-party Software</span>
+              <span>Automotive Software</span>
+              <span>Software Quality</span>
+            </div>
+            <a
+              href="https://bth.diva-portal.org/smash/get/diva2:1979934/ATTACHMENT01.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn thesis-btn"
+            >
+              Read thesis →
+            </a>
+          </div>
+        </section>
+
         <section className="card" id="contact">
           <h2 className="section-label">Contact</h2>
           <div className="contact-grid">
