@@ -111,6 +111,7 @@ function HomePage() {
               </p>
               <div className="project-tags">
                 <span>React</span>
+                <span>MongoDB</span>
                 <span>Netlify</span>
               </div>
             </div>
