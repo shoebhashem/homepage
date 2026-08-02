@@ -97,7 +97,25 @@ function HomePage() {
             </div>
 
 
-<div className="project-card">
+
+            <div className="project-card">
+              <div className="project-header">
+                <h3>Sportify — Football Group Tracker</h3>
+                <a href="https://gbgfotboll.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn">
+                  View app →
+                </a>
+              </div>
+              <p>
+                A web app I built for my local football group in Gothenburg to track wins, points,
+                and standings across our matches. Keeps everyone up to date on the current leaderboard.
+              </p>
+              <div className="project-tags">
+                <span>React</span>
+                <span>Netlify</span>
+              </div>
+            </div>
+
+            <div className="project-card">
               <div className="project-header">
                 <h3>Kubernetes Microservices App</h3>
                 <a href="https://github.com/shoebhashem/myAPP" target="_blank" rel="noopener noreferrer" className="btn">
