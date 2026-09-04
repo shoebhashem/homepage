@@ -133,6 +133,27 @@ function HomePage() {
                 <span>Microservices</span>
               </div>
             </div>
+
+            <div className="project-card">
+              <div className="project-header">
+                <h3>WordHunt — Roblox Game</h3>
+                <a href="https://www.roblox.com/games/91491958871662/WordHunt" target="_blank" rel="noopener noreferrer" className="btn">
+                  Play on Roblox →
+                </a>
+              </div>
+              <p>
+                A word-building game I built on Roblox where players run around collecting letters and
+                combine them into real words to score points. The longer and trickier the word, the bigger
+                the reward — so players end up expanding their vocabulary and spelling without ever feeling
+                like they're studying. Learning through play, aimed at younger players.
+              </p>
+              <div className="project-tags">
+                <span>Roblox</span>
+                <span>Lua</span>
+                <span>Game Design</span>
+                <span>Educational</span>
+              </div>
+            </div>
           </div>
         </section>
 
