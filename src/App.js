@@ -154,6 +154,30 @@ function HomePage() {
                 <span>Educational</span>
               </div>
             </div>
+
+            <div className="project-card">
+              <div className="project-header">
+                <h3>Filmklubb — Movie Club Tracker</h3>
+                <a href="https://filmklubb.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn">
+                  View app →
+                </a>
+              </div>
+              <p>
+                A site for my movie club to keep track of everything we've watched and rate it
+                together. Paste a movie link and the details fill themselves in — pulled from the
+                TMDB API, with Claude Haiku extracting the data from any other source as a fallback.
+              </p>
+              <div className="project-tags">
+                <span>Next.js 14</span>
+                <span>Supabase</span>
+                <span>Tailwind CSS</span>
+                <span>Framer Motion</span>
+                <span>TMDB API</span>
+                <span>Claude Haiku</span>
+                <span>AI Fallback</span>
+                <span>Netlify</span>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -210,7 +234,7 @@ function HomePage() {
               className="contact-item"
             >
               <span className="contact-icon contact-icon--in">in</span>
-              <span>linkedin.com/in/shoebhashem</span>
+              <span>/in/shoebhashem</span>
             </a>
             <div className="contact-item no-link">
               <span className="contact-icon">⌖</span>

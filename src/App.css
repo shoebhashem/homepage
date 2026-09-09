@@ -354,7 +354,7 @@ body {
 
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 12px;
 }
 
@@ -368,10 +368,18 @@ body {
   padding: 14px 18px;
   color: #334155;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: clamp(0.78rem, 0.66rem + 0.4vw, 0.9rem);
   font-weight: 500;
   transition: border-color 0.15s, background 0.15s;
-  word-break: break-all;
+  min-width: 0;
+}
+
+/* Keep each contact value on a single line; ellipsis only as a last resort. */
+.contact-item > span:last-child {
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .contact-item:hover {
@@ -426,6 +434,13 @@ body {
 
 /* ── Responsive ──────────────────────────── */
 
+@media (max-width: 760px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
 @media (max-width: 600px) {
   .hero {
     padding: 52px 20px 44px;
@@ -441,8 +456,14 @@ body {
     gap: 10px;
   }
 
-  .contact-grid {
-    grid-template-columns: 1fr;
+  .contact-item {
+    padding: 13px 14px;
+    gap: 10px;
+  }
+
+  .contact-icon {
+    width: 28px;
+    height: 28px;
   }
 
   .about-layout {
