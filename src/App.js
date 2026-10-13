@@ -74,6 +74,24 @@ function HomePage() {
 
             <div className="project-card">
               <div className="project-header">
+                <h3>Sofiacirkel</h3>
+                <a href="https://sofiacirkel.com" target="_blank" rel="noopener noreferrer" className="btn">
+                  Visit site →
+                </a>
+              </div>
+              <p>
+                A reading tracker where you save books you want to read, log what you've finished, rate books,
+                and see average ratings from other readers. You can create your own book circle (bokcirkel)
+                or book club and explore what other circles are reading.
+              </p>
+              <div className="project-tags">
+                <span>Next.js</span>
+                <span>Full-stack</span>
+              </div>
+            </div>
+
+            <div className="project-card">
+              <div className="project-header">
                 <h3>Car Price Predictor</h3>
                 <a href="https://mlproject-car-price-predictor.streamlit.app/" target="_blank" rel="noopener noreferrer" className="btn">
                   View app →
